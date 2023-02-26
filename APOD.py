@@ -1,7 +1,7 @@
 import requests
 import json
 
-api_key = 'https://api.nasa.gov/planetary/apod?api_key=YspFPkpXyMYywZ2fmswRlWtFSRKeo01cQTjurnLS'
+api_key = 'https://api.nasa.gov/planetary/apod?api_key='
 
 
 response = requests.get(api_key).text
@@ -26,3 +26,5 @@ Source Code Copyright : Reman Biswas 2023
 '''
 
 print(msg)
+
+# YspFPkpXyMYywZ2fmswRlWtFSRKeo01cQTjurnLS

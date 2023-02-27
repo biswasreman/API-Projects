@@ -29,20 +29,6 @@ Your given word is: {put.capitalize()}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # print("code {}\n".format(r.status_code))
 # print("text \n" + r.text)
 # print("json \n" + json.dumps(r.json()))
